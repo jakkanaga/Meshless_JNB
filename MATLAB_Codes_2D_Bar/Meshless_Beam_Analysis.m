@@ -7,7 +7,6 @@
 %   Main Program of Meshless Beam Model
 %---------------------------------------
    function Meshless_Beam_Analysis  
-       'Deloping software with GIT' 
         clear all; clc
         DAT.Title='Meshless_Beam_Analysis  ';
         [DAT  MDL ] = Create_Model_Data_Meshless_Beam_Model( DAT );
